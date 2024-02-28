@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+    font-family: "Anta", sans-serif;
+}
+body{
+    background-color: bisque;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+.text-area {
+    text-align: left;
+    border-radius: 10px;
+    padding: 10px;
+    border: solid;
+    box-shadow: 7px 7px;
+    margin: 10px auto;
+    width: 90%;
+    min-height: 100px;
+
+    /* Ensure text wraps within the textarea */
+    overflow-y: auto; /* Add vertical scrollbar if needed */
+    white-space: pre-wrap; /* Preserve white spaces and wrap lines */
+    word-wrap: break-word; /* Break long words */
+}
+
+.task-btn{
+    margin: auto;
+    width:90% ;
+    padding: 15px;
+    border: solid;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 7px 7px;
+    font-size: 20px;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: solid;
+    box-shadow: 7px 3px;
+    text-align: left;
+    gap: 10px;
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+
+    /* Ensure text wraps within the card */
+    overflow-wrap: break-word; /* Break long words */
+}
+.head-txt{
+    margin-top:10px ;
+}
+.logo{
+    position: absolute;
+    margin: -25px 50px ;
+
+    z-index: -1;
+}
+.card-task{
+    display: flex;
+    flex-direction: column;
+   
+}
+.btn-done{
+    padding: 8px;
+    border: solid;
+    box-shadow: 7px 3px;
+    border-radius: 8px ;
+}
